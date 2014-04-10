@@ -2,8 +2,11 @@
 -- By Blazeix, based off of ghost1227's openbox theme.
 
 theme = {}
-theme.theme_dir = awful.util.getdir("config") .. "/themes/nice-and-clean-theme"
-theme.wallpaper_cmd = { "awsetbg " .. theme.theme_dir .. "/background.jpg" }
+theme.theme_dir = "/home/ian/.config/awesome/themes/nac"
+--theme.wallpaper_cmd = { "awsetbg " .. theme.theme_dir .. "/background.jpg" }
+--theme.wallpaper = theme.theme_dir .. "/background.jpg"
+theme.wallpaper_cmd = { "awsetbg /home/ian/background.jpg" }
+theme.wallpaper = "/home/ian/background.jpg"
 
 theme.font          = "sans 9"
 
